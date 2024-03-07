@@ -26,15 +26,15 @@ export const Header = () => {
   }, []);
 
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: '50% 50%', padding: '0% 10% 0% 5%', backgroundColor: '#D25A8F'}}>
+    <div style={{ display: 'grid', gridTemplateColumns: '50% 50%', backgroundColor: '#D25A8F'}}>
       <div style={{ textAlign: 'left' }}>
         <a href="/" style={{ textDecoration: 'none', color: 'white' }}>
-          <h1 style={{ width: isMobile ? '80%' : '40%', margin: 0, padding: '10%' }}>TYHub</h1>
+          <h1 style={{ width: isMobile ? '80%' : '40%', padding: '5% 0 0 15%' }}>TYHub</h1>
         </a>
       </div>
       <div style={{ textAlign: 'right', padding: isMobile ? '15% 0 0 0' : '15% 0 0 0' }}>
         {isMobile ? (
-          <div style={{ cursor: 'pointer', color: 'white' }} onClick={handleMobileToggle}>
+          <div style={{ cursor: 'pointer', color: 'white', padding: ' 0 10% 0 10%' }} onClick={handleMobileToggle}>
             ☰
             {showMobileMenu && (
               <div style={{ backgroundColor: '#D25A8F', position: 'fixed', top: 0, right: 0, bottom: 0, left: 0, zIndex: 1000 }}>
@@ -48,7 +48,7 @@ export const Header = () => {
             )}
           </div>
         ) : (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '4%', textAlign: 'center', padding: '5%' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', textAlign: 'center', padding: '0 0 5% 0'}}>
             <a href="./Resources" style={{ textDecoration: 'none', color: 'white' }}>RESOURCES</a>
             <a href="./Podcast" style={{ textDecoration: 'none', color: 'white' }}>PODCAST</a>
             <a href="./Ezine" style={{ textDecoration: 'none', color: 'white' }}>EZINE</a>
