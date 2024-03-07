@@ -11,31 +11,31 @@ export default function ResourcesData() {
   return (
     <div style={containerStyle}>
       <ImageInfoCard
-        imageUrl="path/to/image1.jpg"
-        title="Card Title 1"
-        description="Description for card 1."
-        buttonText="Go somewhere"
+        imageUrl="https://tyhub.ie/wp-content/uploads/2023/11/rnli-logo.png"
+        title="RNLI Secondary School Education Resources"
+        description=""
+        buttonText="Read More"
         buttonHref="/Resources"
       />
       <ImageInfoCard
-        imageUrl="path/to/image2.jpg"
-        title="Card Title 2"
-        description="Description for card 2."
-        buttonText="Go somewhere else"
+        imageUrl="https://tyhub.ie/wp-content/uploads/2023/11/ncca-logo-1.jpeg"
+        title="NCCA TY Guidelines"
+        description=""
+        buttonText="Read More"
         buttonHref="/Resources"
       />
       <ImageInfoCard
-        imageUrl="path/to/image1.jpg"
-        title="Card Title 1"
-        description="Description for card 1."
-        buttonText="Go somewhere"
+        imageUrl="https://ecwexford.ie/images/PDST-Logo-300x129.jpg"
+        title="PDST CPD"
+        description=""
+        buttonText="Read More"
         buttonHref="/Resources"
       />
       <ImageInfoCard
-        imageUrl="path/to/image2.jpg"
-        title="Card Title 2"
-        description="Description for card 2."
-        buttonText="Go somewhere else"
+        imageUrl="https://tyhub.ie/wp-content/uploads/2023/11/NCSA-LOGO.gif"
+        title="NCSE – National Council for Special Education - Teacher Resources"
+        description=""
+        buttonText="Read More"
         buttonHref="/Resources"
       />
     </div>
