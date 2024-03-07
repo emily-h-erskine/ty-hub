@@ -12,7 +12,7 @@ export default function ImageInfoCard({ imageUrl, title, description, buttonText
   return (
     <Card style={cardStyle}>
       <Card.Img variant="top" src={imageUrl} style={{ width: '100%' }} />
-      <Card.Body style={{color: '#4E2B72'}}>
+      <Card.Body style={{color: '#4E2B72', padding: '5%'}}>
         <Card.Title><b>{title}</b></Card.Title>
         <Card.Text>{description}</Card.Text>
         <Button variant="primary" href={buttonHref}>
