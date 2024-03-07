@@ -1,7 +1,7 @@
 import React from "react";
-import HomeImageBanner from "./HomeMainImage";
-import ActivityData from "./ActivitiesCarousel/ActivityData";
-import ResourcesData from "./ResourcesCarousel/ResourcesData";
+import HomeImageBanner from "./MainBanner/HomeMainImage";
+import ActivityData from "./Carousels/ActivityData";
+import ResourcesData from "./Carousels/ResourcesData";
 
 
 export default function Home() {
