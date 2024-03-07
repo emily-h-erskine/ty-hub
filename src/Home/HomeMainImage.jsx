@@ -1,16 +1,9 @@
 import React from "react";
+import BannerImage from "./BannerImage.png";
 
 export default function HomeImageBanner() {
   return (
-    <div style={{ position: 'relative', padding: '0% 2% 5% 2%', overflow: 'hidden' }}>
-      <img
-        src="https://png.pngtree.com/background/20220714/original/pngtree-background-of-modern-high-rise-buildings-picture-image_1617227.jpg"
-        alt="header image"
-        style={{
-          objectFit: 'cover',
-          background: 'linear-gradient(180deg, #D25A8F 0%, rgba(7, 16, 29, 0) 100%)'
-        }}
-      />
+    <div style={{ position: 'relative', padding: '0% 2% 4% 2%', overflow: 'hidden' }}>
       <div
         style={{
           width: '100%',
@@ -22,7 +15,17 @@ export default function HomeImageBanner() {
           background: 'linear-gradient(180deg, #07101D 0%, rgba(7, 16, 29, 0) 100%)'
         }}
       />
-        <div
+      <img
+        src={BannerImage}
+        alt="header image"
+        style={{
+          objectFit: 'cover',
+          height: '100%',
+          width: '100%',
+          textAlign: 'center',
+        }}
+      />
+      <div
         style={{
           width: '75%',
           height: 'auto',
