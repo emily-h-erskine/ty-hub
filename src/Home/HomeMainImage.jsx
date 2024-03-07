@@ -45,10 +45,10 @@ export default function HomeImageBanner() {
         type="button"
         name="View Activities Button"
         style={{
-          padding: '1.5vw 4vw',
+          padding: '0.2vw 3vw',
           position: 'absolute',
           right: '10%',
-          top: '50%',
+          top: '52%',
           background: '#D25A8F',
           border: 'none',
           color: 'white',
@@ -58,7 +58,7 @@ export default function HomeImageBanner() {
         }}
       >
         <a href="./Activities" style={{ textDecoration: 'none', color: 'white' }}>
-          <b>See All Activities</b>
+          <h3><b>See All Activities</b></h3>
         </a>
       </button>
     </div>
