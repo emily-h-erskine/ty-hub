@@ -5,7 +5,7 @@ export default function ResourcesData() {
 
     const containerStyle = {
         display: 'flex',
-        gap: '2%',
+        gap: '1%',
       };
 
   return (
@@ -33,7 +33,14 @@ export default function ResourcesData() {
       />
       <ImageInfoCard
         imageUrl="https://tyhub.ie/wp-content/uploads/2023/11/NCSA-LOGO.gif"
-        title="NCSE – National Council for Special Education - Teacher Resources"
+        title="NCSE - National Council for Special Education - Teacher Resources"
+        description=""
+        buttonText="Read More"
+        buttonHref="/Resources"
+      />
+      <ImageInfoCard
+        imageUrl="https://ecwexford.ie/images/PDST-Logo-300x129.jpg"
+        title="PDST Transition Year"
         description=""
         buttonText="Read More"
         buttonHref="/Resources"

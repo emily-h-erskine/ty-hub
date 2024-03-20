@@ -5,7 +5,7 @@ export default function ActivityData() {
 
     const containerStyle = {
         display: 'flex',
-        gap: '2%',
+        gap: '1%',
       };
 
   return (
@@ -35,6 +35,13 @@ export default function ActivityData() {
         imageUrl="https://tyhub.ie/wp-content/uploads/2021/03/4-Small.png"
         title="Indoor Activities"
         description="Indoor school tours & activities that involve such activities as Escape Rooms, Indoor Sports, Team Building, Karting and much more"
+        buttonText="Read More"
+        buttonHref="/Activities"
+      />
+      <ImageInfoCard
+        imageUrl="https://tyhub.ie/wp-content/uploads/2021/03/5-Small.png"
+        title="STEM"
+        description="Workshops and Tours relating to Science, Technology, Engineering and Maths"
         buttonText="Read More"
         buttonHref="/Activities"
       />
